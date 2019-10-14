@@ -1,0 +1,96 @@
+/* Scss Document */
+
+.logo{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.logo-img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* nav */
+.top-nav ul{
+	margin:0 auto;
+	text-align: center;
+	width:350px;
+}
+
+.top-nav ul li {
+  list-style: none;
+  margin:5px 3px;
+  display: inline-block;
+  
+}
+
+.top-nav span{
+	font-size:30px;
+	padding-top:10px
+	
+}
+
+.top-nav p{
+	padding-top:12px;
+	font-size:15px;
+	font-weight: bold;
+	line-height: 0px
+}
+
+.top-nav .nav-icon {
+  height: 70px;
+  width: 70px;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #381400;
+  border-radius: 10px;
+  border: 2px solid gold;
+  box-shadow:2px 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.top-nav .nav-icon:hover{
+	color:yellow;
+}
+
+
+/* 更新情報など */
+h1{
+	font-size: 25px;
+	border-bottom: 2px solid #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.update-log,.how-about{
+	width:90%;
+	margin: 20px auto;
+}
+
+
+/* footer */
+footer{
+	background: black;
+	padding:15px 0;
+	margin-top:30px;
+	text-align: center;
+	line-height: 18px;
+	border-top:2px solid gold;
+}
+
+
+
+/* メディアクエリ　画面幅700px以上の場合 */
+
+@media(min-width:700px){
+	.logo{width:490px;}
+	.top-nav ul{width:95%}
+}
+
+
+
+
+
+
+
